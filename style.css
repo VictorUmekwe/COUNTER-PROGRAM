@@ -1,0 +1,34 @@
+
+
+body{
+    max-width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.352);
+    background-color: hsl(180, 57%, 84%);
+}
+#countLabel{
+    font-size: 10em;
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    margin-bottom: 15px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    transition: 0.5s;
+   
+    border-radius: 5px;
+ 
+}
+.buttons:hover{
+    background-color: teal;
+}
